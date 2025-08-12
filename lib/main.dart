@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -38,14 +39,11 @@ ThemeData _buildTheme({bool dark = false}) {
     onSecondary: Colors.white,
     error: Colors.red,
     onError: Colors.white,
-    background: dark ? const Color(0xFF08191C) : const Color(0xFFFFFFFF),
-    onBackground: dark ? Colors.white : const Color(0xFF102A2E),
     surface: dark ? surfaceDark : surfaceLight,
     onSurface: dark ? Colors.white : const Color(0xFF102A2E),
     tertiary: const Color(0xFF00BCD4),
     onTertiary: Colors.white,
-    surfaceVariant: dark ? const Color(0xFF184147) : const Color(0xFFE0F1F3),
-    onSurfaceVariant: dark ? Colors.white70 : const Color(0xFF235157),
+    surfaceTint: primary,
     outline: dark ? Colors.white24 : const Color(0xFF82B9BF),
     shadow: Colors.black45,
     inverseSurface: primary,
@@ -56,7 +54,8 @@ ThemeData _buildTheme({bool dark = false}) {
   final base = ThemeData(
     useMaterial3: true,
     colorScheme: colorScheme,
-    scaffoldBackgroundColor: colorScheme.background,
+  // Use surface as background base (background deprecated in newer specs)
+  scaffoldBackgroundColor: colorScheme.surface,
     fontFamily: 'Inter',
     appBarTheme: AppBarTheme(
       backgroundColor: colorScheme.surface,
@@ -98,6 +97,9 @@ class _AuthGateState extends State<_AuthGate> {
         }
         final user = snap.data;
         if (user == null) return const LoginPage();
+        if (!user.emailVerified && user.email != null) {
+          return EmailVerificationPage(user: user);
+        }
         return const GroupsPage();
       },
     );
@@ -121,6 +123,8 @@ class _Splash extends StatelessWidget {
       );
 }
 
+enum _AuthMode { email, phone }
+
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
   @override
@@ -131,10 +135,15 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   final _emailCtrl = TextEditingController();
   final _passCtrl = TextEditingController();
+  final _phoneCtrl = TextEditingController();
+  final _smsCtrl = TextEditingController();
   bool _loading = false;
   String? _error;
+  _AuthMode _mode = _AuthMode.email;
+  String? _verificationId;
+  bool _codeSent = false;
 
-  Future<void> _submit() async {
+  Future<void> _submitEmail() async {
     if (!_formKey.currentState!.validate()) return;
     setState(() {
       _loading = true;
@@ -152,6 +161,9 @@ class _LoginPageState extends State<LoginPage> {
             email: _emailCtrl.text.trim(),
             password: _passCtrl.text.trim(),
           );
+          if (FirebaseAuth.instance.currentUser != null && !(FirebaseAuth.instance.currentUser!.emailVerified)) {
+            await FirebaseAuth.instance.currentUser!.sendEmailVerification();
+          }
         } on FirebaseAuthException catch (e2) {
           _error = e2.message;
         }
@@ -163,10 +175,55 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 
+  Future<void> _sendCode() async {
+    final phone = _phoneCtrl.text.trim();
+    if (phone.isEmpty) {
+      setState(() => _error = 'Telefonnummer eingeben');
+      return;
+    }
+    setState(() { _loading = true; _error = null; });
+    await FirebaseAuth.instance.verifyPhoneNumber(
+      phoneNumber: phone,
+      timeout: const Duration(seconds: 60),
+      verificationCompleted: (cred) async {
+        try { await FirebaseAuth.instance.signInWithCredential(cred); } catch (_) {}
+      },
+      verificationFailed: (e) {
+        if (mounted) setState(() { _error = e.message; _loading = false; });
+      },
+      codeSent: (id, _) {
+        if (mounted) setState(() { _verificationId = id; _codeSent = true; _loading = false; });
+      },
+      codeAutoRetrievalTimeout: (id) {
+        _verificationId = id;
+      },
+    );
+  }
+
+  Future<void> _submitCode() async {
+    if (_verificationId == null) return;
+    final code = _smsCtrl.text.trim();
+    if (code.length < 4) {
+      setState(() => _error = 'Code zu kurz');
+      return;
+    }
+    setState(() { _loading = true; _error = null; });
+    try {
+      final cred = PhoneAuthProvider.credential(verificationId: _verificationId!, smsCode: code);
+      await FirebaseAuth.instance.signInWithCredential(cred);
+    } on FirebaseAuthException catch (e) {
+      setState(() => _error = e.message);
+    } finally {
+      if (mounted) setState(() => _loading = false);
+    }
+  }
+
   @override
   void dispose() {
-    _emailCtrl.dispose();
-    _passCtrl.dispose();
+  _emailCtrl.dispose();
+  _passCtrl.dispose();
+  _phoneCtrl.dispose();
+  _smsCtrl.dispose();
     super.dispose();
   }
 
@@ -187,22 +244,53 @@ class _LoginPageState extends State<LoginPage> {
                   children: [
                     Text('VCan', style: Theme.of(context).textTheme.headlineLarge?.copyWith(fontWeight: FontWeight.w700)),
                     const SizedBox(height: 12),
-                    Text('Anmelden oder Konto erstellen', style: Theme.of(context).textTheme.titleMedium),
-                    const SizedBox(height: 32),
-                    TextFormField(
-                      controller: _emailCtrl,
-                      decoration: const InputDecoration(labelText: 'E-Mail'),
-                      keyboardType: TextInputType.emailAddress,
-                      validator: (v) => (v == null || !v.contains('@')) ? 'Gültige E-Mail' : null,
-                    ),
-                    const SizedBox(height: 16),
-                    TextFormField(
-                      controller: _passCtrl,
-                      decoration: const InputDecoration(labelText: 'Passwort'),
-                      obscureText: true,
-                      validator: (v) => (v == null || v.length < 6) ? 'Min. 6 Zeichen' : null,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        ChoiceChip(
+                          label: const Text('E-Mail'),
+                          selected: _mode == _AuthMode.email,
+                          onSelected: (v) => setState(() { if (v) _mode = _AuthMode.email; }),
+                        ),
+                        const SizedBox(width: 8),
+                        ChoiceChip(
+                          label: const Text('Telefon'),
+                          selected: _mode == _AuthMode.phone,
+                          onSelected: (v) => setState(() { if (v) _mode = _AuthMode.phone; }),
+                        )
+                      ],
                     ),
                     const SizedBox(height: 24),
+                    if (_mode == _AuthMode.email) ...[
+                      TextFormField(
+                        controller: _emailCtrl,
+                        decoration: const InputDecoration(labelText: 'E-Mail'),
+                        keyboardType: TextInputType.emailAddress,
+                        validator: (v) => (v == null || !v.contains('@')) ? 'Gültige E-Mail' : null,
+                      ),
+                      const SizedBox(height: 16),
+                      TextFormField(
+                        controller: _passCtrl,
+                        decoration: const InputDecoration(labelText: 'Passwort'),
+                        obscureText: true,
+                        validator: (v) => (v == null || v.length < 6) ? 'Min. 6 Zeichen' : null,
+                      ),
+                      const SizedBox(height: 24),
+                    ] else ...[
+                      TextFormField(
+                        controller: _phoneCtrl,
+                        decoration: const InputDecoration(labelText: 'Telefon (+49...)'),
+                        keyboardType: TextInputType.phone,
+                      ),
+                      const SizedBox(height: 16),
+                      if (_codeSent)
+                        TextFormField(
+                          controller: _smsCtrl,
+                          decoration: const InputDecoration(labelText: 'SMS Code'),
+                          keyboardType: TextInputType.number,
+                        ),
+                      const SizedBox(height: 24),
+                    ],
                     if (_error != null) ...[
                       Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error)),
                       const SizedBox(height: 12),
@@ -210,10 +298,20 @@ class _LoginPageState extends State<LoginPage> {
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
-                        onPressed: _loading ? null : _submit,
+                        onPressed: _loading ? null : () {
+                          if (_mode == _AuthMode.email) {
+                            _submitEmail();
+                          } else {
+                            if (_codeSent) {
+                              _submitCode();
+                            } else {
+                              _sendCode();
+                            }
+                          }
+                        },
                         child: _loading
                             ? const SizedBox(height: 18, width: 18, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white))
-                            : const Text('Weiter'),
+                            : Text(_mode == _AuthMode.email ? 'Weiter' : (_codeSent ? 'Anmelden' : 'Code senden')),
                       ),
                     ),
                   ],
@@ -227,11 +325,21 @@ class _LoginPageState extends State<LoginPage> {
   }
 }
 
-class GroupsPage extends StatelessWidget {
-  const GroupsPage({super.key});
+final groupsProvider = StreamProvider.autoDispose<List<GroupModel>>((ref) {
+  final stream = FirebaseFirestore.instance
+      .collection('groups')
+      .orderBy('title', descending: false)
+      .snapshots();
+  return stream.map((snap) => snap.docs
+      .map((d) => GroupModel(id: d.id, title: d['title'] ?? 'Ohne Titel', desc: d['desc'] ?? ''))
+      .toList());
+});
 
+class GroupsPage extends ConsumerWidget {
+  const GroupsPage({super.key});
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final groupsAsync = ref.watch(groupsProvider);
     final auth = FirebaseAuth.instance;
     return Scaffold(
       appBar: AppBar(
@@ -244,21 +352,32 @@ class GroupsPage extends StatelessWidget {
           )
         ],
       ),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: const [
-          _GroupCard(title: 'Willkommen', desc: 'Erste Schritte und Community Richtlinien'),
-          _GroupCard(title: 'Mentale Gesundheit', desc: 'Austausch & Unterstützung'),
-          _GroupCard(title: 'Wohnraum & Neustart', desc: 'Hilfe bei Wohnungssuche, Umzug, Start'),
-          _GroupCard(title: 'Studium & Ausbildung', desc: 'Tipps, Lerngruppen, Orientierung'),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: const Icon(Icons.add),
+      body: groupsAsync.when(
+        data: (groups) {
+          if (groups.isEmpty) {
+            return const Center(child: Text('Noch keine Gruppen (Firestore).'));
+          }
+            return ListView.builder(
+              padding: const EdgeInsets.all(16),
+              itemCount: groups.length,
+              itemBuilder: (c, i) {
+                final g = groups[i];
+                return _GroupCard(title: g.title, desc: g.desc);
+              },
+            );
+        },
+        loading: () => const Center(child: CircularProgressIndicator()),
+        error: (e, _) => Center(child: Text('Fehler: $e')),
       ),
     );
   }
+}
+
+class GroupModel {
+  final String id;
+  final String title;
+  final String desc;
+  GroupModel({required this.id, required this.title, required this.desc});
 }
 
 class _GroupCard extends StatelessWidget {
@@ -283,6 +402,89 @@ class _GroupCard extends StatelessWidget {
               const SizedBox(height: 6),
               Text(desc, style: TextStyle(color: cs.onSurfaceVariant)),
             ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class EmailVerificationPage extends StatefulWidget {
+  final User user;
+  const EmailVerificationPage({super.key, required this.user});
+  @override
+  State<EmailVerificationPage> createState() => _EmailVerificationPageState();
+}
+
+class _EmailVerificationPageState extends State<EmailVerificationPage> {
+  bool _sending = false;
+  bool _checking = false;
+  String? _msg;
+
+  Future<void> _resend() async {
+    setState(() { _sending = true; _msg = null; });
+    try {
+      await widget.user.sendEmailVerification();
+      setState(() { _msg = 'Verifizierungs-E-Mail gesendet.'; });
+    } catch (e) {
+      setState(() { _msg = 'Fehler: $e'; });
+    } finally {
+      setState(() { _sending = false; });
+    }
+  }
+
+  Future<void> _refresh() async {
+    setState(() { _checking = true; });
+    await widget.user.reload();
+    final reloaded = FirebaseAuth.instance.currentUser;
+    setState(() { _checking = false; });
+    if (reloaded != null && reloaded.emailVerified) {
+      // Trigger rebuild of AuthGate by popping a frame
+      setState(() {});
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final u = widget.user;
+    return Scaffold(
+      appBar: AppBar(title: const Text('E-Mail bestätigen')),
+      body: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 500),
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.mark_email_unread_outlined, size: 56),
+                const SizedBox(height: 16),
+                Text('Bitte bestätige deine E-Mail Adresse', style: Theme.of(context).textTheme.titleLarge),
+                const SizedBox(height: 8),
+                Text(u.email ?? '', style: const TextStyle(fontWeight: FontWeight.w600)),
+                const SizedBox(height: 24),
+                if (_msg != null) ...[
+                  Text(_msg!, style: TextStyle(color: Theme.of(context).colorScheme.primary)),
+                  const SizedBox(height: 16),
+                ],
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    ElevatedButton(
+                      onPressed: _sending ? null : _resend,
+                      child: _sending ? const SizedBox(height:18,width:18,child:CircularProgressIndicator(strokeWidth:2,color:Colors.white)) : const Text('Mail erneut senden'),
+                    ),
+                    const SizedBox(width: 12),
+                    OutlinedButton(
+                      onPressed: _checking ? null : _refresh,
+                      child: _checking ? const SizedBox(height:18,width:18,child:CircularProgressIndicator(strokeWidth:2)) : const Text('Aktualisieren'),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 24),
+                TextButton(onPressed: () => FirebaseAuth.instance.signOut(), child: const Text('Abmelden'))
+              ],
+            ),
           ),
         ),
       ),
