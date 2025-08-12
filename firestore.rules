@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public groups read (authenticated), writes restricted for now.
+    match /groups/{groupId} {
+      allow read: if request.auth != null;
+      allow write: if false; // tighten later with role/mod rules
+    }
+    // Fallback: deny everything else until explicitly opened
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

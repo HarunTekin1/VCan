@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "490354986336",
+    "project_id": "vcan-c74cc",
+    "storage_bucket": "vcan-c74cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490354986336:android:d0abff7a0a6835585a2205",
+        "android_client_info": {
+          "package_name": "com.example.vcan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWXwnv7yetQOxJe-RdaJEtNAat86TTKJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490354986336:android:d90cbf086e100d335a2205",
+        "android_client_info": {
+          "package_name": "com.vcan.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWXwnv7yetQOxJe-RdaJEtNAat86TTKJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
