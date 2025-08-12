@@ -369,6 +369,10 @@ class GroupsPage extends ConsumerWidget {
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (e, _) => Center(child: Text('Fehler: $e')),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => _showCreateGroup(context),
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
@@ -414,6 +418,77 @@ class EmailVerificationPage extends StatefulWidget {
   const EmailVerificationPage({super.key, required this.user});
   @override
   State<EmailVerificationPage> createState() => _EmailVerificationPageState();
+}
+
+Future<void> _showCreateGroup(BuildContext context) async {
+  final titleCtrl = TextEditingController();
+  final descCtrl = TextEditingController();
+  final formKey = GlobalKey<FormState>();
+  bool saving = false;
+  await showDialog(
+    context: context,
+    builder: (ctx) => StatefulBuilder(
+      builder: (ctx, setSt) {
+        return AlertDialog(
+          title: const Text('Neue Gruppe'),
+            content: Form(
+              key: formKey,
+              child: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    TextFormField(
+                      controller: titleCtrl,
+                      decoration: const InputDecoration(labelText: 'Titel'),
+                      validator: (v) => (v==null || v.trim().length < 3) ? 'Min. 3 Zeichen' : null,
+                      maxLength: 80,
+                    ),
+                    TextFormField(
+                      controller: descCtrl,
+                      decoration: const InputDecoration(labelText: 'Beschreibung'),
+                      maxLines: 3,
+                      maxLength: 300,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            actions: [
+              TextButton(onPressed: saving ? null : () => Navigator.of(ctx).pop(), child: const Text('Abbrechen')),
+              ElevatedButton(
+                onPressed: saving ? null : () async {
+                  if(!formKey.currentState!.validate()) return;
+                  setSt(()=> saving = true);
+                  final localNavigator = Navigator.of(ctx);
+                  final messenger = ScaffoldMessenger.of(ctx);
+                  final user = FirebaseAuth.instance.currentUser;
+                  if(user == null){
+                    if(localNavigator.canPop()) localNavigator.pop();
+                    setSt(()=> saving = false);
+                    return;
+                  }
+                  final data = {
+                    'title': titleCtrl.text.trim(),
+                    'desc': descCtrl.text.trim(),
+                    'owner': user.uid,
+                    'createdAt': FieldValue.serverTimestamp(),
+                  };
+                  try {
+                    await FirebaseFirestore.instance.collection('groups').add(data);
+                    if(localNavigator.canPop()) localNavigator.pop();
+                  } catch (e) {
+                    messenger.showSnackBar(SnackBar(content: Text('Fehler: $e')));
+                  } finally {
+                    setSt(()=> saving = false);
+                  }
+                },
+                child: saving ? const SizedBox(height:18,width:18,child:CircularProgressIndicator(strokeWidth:2,color:Colors.white)) : const Text('Erstellen'),
+              )
+            ],
+        );
+      },
+    ),
+  );
 }
 
 class _EmailVerificationPageState extends State<EmailVerificationPage> {

@@ -4,7 +4,16 @@ service cloud.firestore {
     // Public groups read (authenticated), writes restricted for now.
     match /groups/{groupId} {
       allow read: if request.auth != null;
-      allow write: if false; // tighten later with role/mod rules
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(['title','desc','createdAt','owner'])
+        && request.resource.data.title is string
+        && request.resource.data.desc is string
+        && request.resource.data.title.size() > 2
+        && request.resource.data.title.size() < 80
+        && request.resource.data.desc.size() < 500
+        && request.resource.data.owner == request.auth.uid
+        && request.resource.data.createdAt == request.time;
+      allow update, delete: if false; // später Rollen/Moderation
     }
     // Fallback: deny everything else until explicitly opened
     match /{document=**} {
