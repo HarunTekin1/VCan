@@ -4,6 +4,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'firebase_options.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'features/profile_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -175,6 +177,60 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 
+  Future<void> _signInWithGoogle() async {
+    setState(() { _loading = true; _error = null; });
+    try {
+      final google = GoogleSignIn();
+      final account = await google.signIn();
+      if (account == null) return;
+      final auth = await account.authentication;
+      final cred = GoogleAuthProvider.credential(idToken: auth.idToken, accessToken: auth.accessToken);
+      await FirebaseAuth.instance.signInWithCredential(cred);
+    } catch (e) {
+      setState(() { _error = e.toString(); });
+    } finally {
+      if (mounted) setState(() => _loading = false);
+    }
+  }
+
+  Future<void> _sendPasswordReset() async {
+    final email = _emailCtrl.text.trim();
+    if (email.isEmpty || !email.contains('@')) {
+      setState(() => _error = 'Bitte gültige E-Mail eingeben');
+      return;
+    }
+    setState(() { _loading = true; _error = null; });
+    try {
+      await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
+      setState(() { _error = 'Reset-Mail gesendet'; });
+    } catch (e) {
+      setState(() { _error = 'Fehler: $e'; });
+    } finally {
+      if (mounted) setState(() => _loading = false);
+    }
+  }
+
+  Future<void> _linkGoogleAccount() async {
+    setState(() { _loading = true; _error = null; });
+    try {
+      final google = GoogleSignIn();
+      final account = await google.signIn();
+      if (account == null) return;
+      final auth = await account.authentication;
+      final cred = GoogleAuthProvider.credential(idToken: auth.idToken, accessToken: auth.accessToken);
+      final user = FirebaseAuth.instance.currentUser;
+      if (user != null) {
+        await user.linkWithCredential(cred);
+      }
+    } on FirebaseAuthException catch (e) {
+      setState(() { _error = e.message; });
+    } catch (e) {
+      setState(() { _error = e.toString(); });
+    } finally {
+      if (mounted) setState(() => _loading = false);
+    }
+  }
+
   Future<void> _sendCode() async {
     final phone = _phoneCtrl.text.trim();
     if (phone.isEmpty) {
@@ -314,6 +370,25 @@ class _LoginPageState extends State<LoginPage> {
                             : Text(_mode == _AuthMode.email ? 'Weiter' : (_codeSent ? 'Anmelden' : 'Code senden')),
                       ),
                     ),
+                    const SizedBox(height: 12),
+                    if (_mode == _AuthMode.email) ...[
+                      SizedBox(
+                        width: double.infinity,
+                        child: OutlinedButton.icon(
+                          icon: const Icon(Icons.login),
+                          label: const Text('Mit Google anmelden'),
+                          onPressed: _loading ? null : _signInWithGoogle,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Row(
+                        children: [
+                          TextButton(onPressed: _loading ? null : _sendPasswordReset, child: const Text('Passwort zurücksetzen')),
+                          const Spacer(),
+                          TextButton(onPressed: _loading ? null : _linkGoogleAccount, child: const Text('Google verknüpfen')),
+                        ],
+                      ),
+                    ],
                   ],
                 ),
               ),
@@ -345,11 +420,16 @@ class GroupsPage extends ConsumerWidget {
       appBar: AppBar(
         title: const Text('Gruppen'),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.logout),
-            tooltip: 'Logout',
-            onPressed: () => auth.signOut(),
-          )
+              IconButton(
+                icon: const Icon(Icons.person),
+                tooltip: 'Profil',
+                onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ProfilePage())),
+              ),
+              IconButton(
+                icon: const Icon(Icons.logout),
+                tooltip: 'Logout',
+                onPressed: () => auth.signOut(),
+              ),
         ],
       ),
       body: groupsAsync.when(
