@@ -4,12 +4,29 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'firebase_options.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'features/profile_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // Debug: use local Firebase emulators when developing on device.
+  const useEmulator = true; // set to false for production / real Firebase
+  if (useEmulator) {
+    // For a physical device connected via USB, run adb reverse for ports or use PC IP.
+    const host = '127.0.0.1';
+    // Auth emulator default port 9099, Firestore 8080, Storage 9199
+    try {
+      FirebaseAuth.instance.useAuthEmulator(host, 9099);
+    } catch (_) {}
+    try {
+      FirebaseFirestore.instance.useFirestoreEmulator(host, 8080);
+    } catch (_) {}
+    try {
+      FirebaseStorage.instance.useStorageEmulator(host, 9199);
+    } catch (_) {}
+  }
   runApp(const ProviderScope(child: VCanApp()));
 }
 

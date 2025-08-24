@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.vcan"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // Use the NDK required by several plugins
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -24,7 +25,9 @@ android {
         applicationId = "com.example.vcan"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+    // Some plugins (cloud_firestore, firebase_storage) require minSdk >= 23.
+    // Set to 23 to satisfy those plugin requirements.
+    minSdk = 23
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
