@@ -12,7 +12,20 @@
           "package_name": "com.example.vcan"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "490354986336-1jbah3finnj6aqdqr76adj046frbqk2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vcan",
+            "certificate_hash": "35eef149488f29790e9849e4ce559147326a0f5e"
+          }
+        },
+        {
+          "client_id": "490354986336-p23v8n70rn1lij4idee5r6r55t8vd8s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAWXwnv7yetQOxJe-RdaJEtNAat86TTKJg"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490354986336-p23v8n70rn1lij4idee5r6r55t8vd8s0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "490354986336-jtj86s1bvapmmnssoj2855jbpciajv9p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vcan"
+              }
+            }
+          ]
         }
       }
     },
@@ -31,7 +56,20 @@
           "package_name": "com.vcan.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "490354986336-eu5poihpdu8sf164n0ucbgas3vlb0g5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vcan.app",
+            "certificate_hash": "35eef149488f29790e9849e4ce559147326a0f5e"
+          }
+        },
+        {
+          "client_id": "490354986336-p23v8n70rn1lij4idee5r6r55t8vd8s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAWXwnv7yetQOxJe-RdaJEtNAat86TTKJg"
@@ -39,7 +77,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490354986336-p23v8n70rn1lij4idee5r6r55t8vd8s0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "490354986336-jtj86s1bvapmmnssoj2855jbpciajv9p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vcan"
+              }
+            }
+          ]
         }
       }
     }
