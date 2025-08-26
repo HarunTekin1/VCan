@@ -1,0 +1,1562 @@
+﻿
+device_logs_20250825-000237\full_logcat.txt:5:08-14 00:05:38.016     0     0 I trusty  : INFO: trusty/user/app/secretkeeper/lib.rs:258 Secretkeeper TA 
+startup, on: 'com.android.trusty.secretkeeper.authgraph', 'com.android.trusty.secretkeeper', 'com.android.trusty.secretkeeper.bootloader'
+device_logs_20250825-000237\full_logcat.txt:27:08-14 00:05:38.834     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:28:08-14 00:05:38.896     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing 
+DeviceConvertStorageKeyToEphemeral request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 140000 needs 
+upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:29:08-14 00:05:56.077     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:30:08-14 00:05:56.086     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing 
+DeviceConvertStorageKeyToEphemeral request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 140000 needs 
+upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:31:08-14 00:05:56.133     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing 
+DeviceGetKeyCharacteristics request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs 
+upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:34:08-14 00:05:56.930     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:35:08-14 00:05:56.941     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing 
+DeviceConvertStorageKeyToEphemeral request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 140000 needs 
+upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:36:08-14 00:05:57.076     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:37:08-14 00:06:07.758     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:38:08-14 00:06:08.323     0     0 I trusty  : INFO: trusty/user/app/secretkeeper/lib.rs:130 Accepted AuthGraph 
+connection from uuid 00000000-0000-0000-0000-000000000000
+device_logs_20250825-000237\full_logcat.txt:60:08-14 00:06:10.344     0     0 I trusty  : [GF_TA][E][gf_delmar_t_dc][delmar_read_chip_id] exit. 
+err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+device_logs_20250825-000237\full_logcat.txt:61:08-14 00:06:10.344     0     0 I trusty  : [GF_TA][E][gf_delmar_t_dc][gf_delmar_t_read_chip_id] exit. 
+err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+device_logs_20250825-000237\full_logcat.txt:85:08-14 00:06:10.355     0     0 I trusty  : [GF_TA][E][gf_delmar][delmar_read_flash_id] exit. 
+err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+device_logs_20250825-000237\full_logcat.txt:86:08-14 00:06:10.355     0     0 I trusty  : [GF_TA][E][gf_hw][hw_has_flash] exit. 
+err=GF_ERROR_SENSOR_NOT_AVAILABLE, errno=1064
+device_logs_20250825-000237\full_logcat.txt:121:08-14 00:06:10.455     0     0 I trusty  : [GF_TA][E][gf_local_store_file_system][gf_load_data_in_partion] 
+exit. err=GF_ERROR_INVALID_DATA, errno=1024
+device_logs_20250825-000237\full_logcat.txt:136:08-14 00:06:10.468     0     0 I trusty  : [GF_TA][E][gf_local_store_file_system][gf_load_data_in_partion] 
+exit. err=GF_ERROR_INVALID_DATA, errno=1024
+device_logs_20250825-000237\full_logcat.txt:137:08-14 00:06:10.468     0     0 I trusty  : [GF_TA][E][gf_local_store_fs_internal][gf_file_store_get] exit. 
+err=GF_ERROR_INVALID_DATA, errno=1024
+device_logs_20250825-000237\full_logcat.txt:139:08-14 00:06:10.468     0     0 I trusty  : [GF_TA][E][gf_delmar_cs_dc][load_cali_temperature] exit. 
+err=GF_ERROR_INVALID_DATA, errno=1024
+device_logs_20250825-000237\full_logcat.txt:151:08-14 00:06:10.580     0     0 I trusty  : [GF_TA][I][gf_algo_common][algo_check_config] authenticate_order=0
+device_logs_20250825-000237\full_logcat.txt:254:08-14 00:06:28.553     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 0 
+LHBM_auth_token_0.so 1
+device_logs_20250825-000237\full_logcat.txt:259:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:261:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:262:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:267:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:269:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:270:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:271:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_finger_template] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:277:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:279:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:280:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:285:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:287:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:288:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:289:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_finger_template] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:295:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:297:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:298:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:303:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:305:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:306:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:307:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_finger_template] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:313:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:315:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:316:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:321:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:323:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:324:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:325:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_finger_template] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:331:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_delete_object] exit. 
+err=GF_ERROR_DELETE_SECURE_OBJECT_FAILED, errno=1038
+device_logs_20250825-000237\full_logcat.txt:332:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_delete_persistent_object] 
+exit. err=GF_ERROR_DELETE_SECURE_OBJECT_FAILED, errno=1038
+device_logs_20250825-000237\full_logcat.txt:335:08-14 00:06:28.557     0     0 I trusty  : [GF_TA][I][gf_tee_storage][trusty_file_open] 0 LHBM_auth_att.so 1
+device_logs_20250825-000237\full_logcat.txt:340:08-14 00:06:28.562     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:342:08-14 00:06:28.562     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:343:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:348:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:350:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:351:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:356:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:358:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:359:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:364:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:366:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:367:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:372:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:374:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:375:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:380:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:382:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:383:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:388:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:390:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:391:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:396:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:398:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:399:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:400:08-14 00:06:28.563     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_get_finger_ids_from_so] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:405:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:407:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:408:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:413:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:415:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:416:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:421:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:423:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:424:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:429:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:431:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:432:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:437:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:439:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:440:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:445:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:447:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:448:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:453:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:455:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:456:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:461:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_tee_storage][gf_tee_open_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:463:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_secure_object][gf_so_load_persistent_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:464:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_load_template_object] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:465:08-14 00:06:28.567     0     0 I trusty  : [GF_TA][E][gf_fpcore_common][fpcore_get_finger_ids_from_so] exit. 
+err=GF_ERROR_OPEN_SECURE_OBJECT_FAILED, errno=1035
+device_logs_20250825-000237\full_logcat.txt:467:08-14 00:06:35.602     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:468:08-14 00:06:41.168     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:469:08-14 00:06:43.155     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing 
+DeviceConvertStorageKeyToEphemeral request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 140000 needs 
+upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:470:08-14 00:06:44.189     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:471:08-14 00:06:48.887     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:472:08-14 00:06:57.581     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:473:08-14 00:06:57.776     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceGenerateKey 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:474:08-14 00:06:58.769     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceGenerateKey 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:475:08-14 00:07:00.238     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:476:08-14 00:07:03.596     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:478:08-14 00:07:05.506     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:479:08-14 00:07:15.983     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:480:08-14 00:07:16.969     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:481:08-14 00:07:20.096     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:482:08-14 00:07:23.131     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:483:08-14 00:07:27.232     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:485:08-14 00:07:47.385     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:486:08-14 00:07:52.119     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:487:08-14 00:07:56.150     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:488:08-14 00:07:56.594     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:489:08-14 00:08:00.813     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:490:08-14 00:08:04.621     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:491:08-14 00:08:12.923     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:493:08-14 00:08:18.999     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:494:08-14 00:08:38.977     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:495:08-14 00:08:40.294     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:496:08-14 00:08:40.311     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:497:08-14 00:08:42.870     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 150000 needs upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:498:08-14 00:08:45.670     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceGenerateKey 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:500:08-14 00:09:00.428     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:501:08-14 00:09:00.571     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:502:08-14 00:09:00.668     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:503:08-14 00:09:03.562     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:504:08-14 00:09:04.400     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:505:08-14 00:09:07.221     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:506:08-14 00:09:39.889     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:507:08-14 00:09:39.979     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:509:08-14 00:09:40.143     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:510:08-14 00:09:48.953     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:511:08-14 00:09:49.012     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:512:08-14 00:09:49.164     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:513:08-14 00:09:51.960     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:514:08-14 00:09:57.489     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:515:08-14 00:10:00.436     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:517:08-14 00:11:59.739     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:519:08-14 00:16:20.453     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:527:08-14 00:45:39.805     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:529:08-14 00:45:40.111     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:532:08-14 02:57:53.676     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:537:08-14 08:49:55.188     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:539:08-14 08:49:55.308     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:543:08-14 09:45:14.139     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:552:08-14 10:28:29.291     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:559:08-14 11:05:06.236  9641  9641 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:561:08-14 11:05:06.236  9641  9641 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:576:08-14 11:05:06.236  9641  9641 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:585:08-14 11:05:11.900  9779  9779 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:587:08-14 11:05:11.900  9779  9779 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:602:08-14 11:05:11.900  9779  9779 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:611:08-14 11:13:04.468 11854 11854 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:613:08-14 11:13:04.468 11854 11854 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:628:08-14 11:13:04.468 11854 11854 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:637:08-14 11:13:06.639 11902 11902 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:639:08-14 11:13:06.639 11902 11902 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:654:08-14 11:13:06.639 11902 11902 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:663:08-14 11:13:17.786 11986 11986 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:665:08-14 11:13:17.786 11986 11986 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:680:08-14 11:13:17.786 11986 11986 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:689:08-14 11:13:19.287 12037 12037 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:691:08-14 11:13:19.287 12037 12037 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:706:08-14 11:13:19.287 12037 12037 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:715:08-14 11:13:21.438 12084 12084 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:717:08-14 11:13:21.438 12084 12084 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:732:08-14 11:13:21.438 12084 12084 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:741:08-14 11:13:27.168 12114 12114 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:743:08-14 11:13:27.168 12114 12114 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:758:08-14 11:13:27.168 12114 12114 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:767:08-14 11:13:28.161 12150 12150 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:769:08-14 11:13:28.161 12150 12150 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:784:08-14 11:13:28.161 12150 12150 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:793:08-14 11:13:29.023 12185 12185 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:795:08-14 11:13:29.023 12185 12185 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:810:08-14 11:13:29.023 12185 12185 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:819:08-14 11:13:30.516 12214 12214 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:821:08-14 11:13:30.516 12214 12214 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:836:08-14 11:13:30.516 12214 12214 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:845:08-14 11:13:31.539 12250 12250 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:847:08-14 11:13:31.539 12250 12250 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:862:08-14 11:13:31.539 12250 12250 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:871:08-14 11:13:32.179 12282 12282 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:873:08-14 11:13:32.179 12282 12282 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:888:08-14 11:13:32.179 12282 12282 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:897:08-14 11:13:32.718 12343 12343 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:899:08-14 11:13:32.718 12343 12343 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:914:08-14 11:13:32.718 12343 12343 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:923:08-14 11:13:33.268 12415 12415 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:925:08-14 11:13:33.268 12415 12415 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:940:08-14 11:13:33.268 12415 12415 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:949:08-14 11:13:34.042 12521 12521 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:951:08-14 11:13:34.042 12521 12521 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:966:08-14 11:13:34.042 12521 12521 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:977:08-14 11:33:56.096 14718 14718 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:979:08-14 11:33:56.096 14718 14718 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:994:08-14 11:33:56.096 14718 14718 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1003:08-14 11:38:38.927 15278 15278 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:1005:08-14 11:38:38.927 15278 15278 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativeLibraryDirectories=[/data/app/~~sKQUiWekM-
+4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1020:08-14 11:38:38.927 15278 15278 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/lib/arm64, 
+/data/app/~~sKQUiWekM-4LGhZsTrHTHQ==/com.vcan.app-XGMCoqoM6hm1W8L8NoyFUg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1029:08-14 11:40:27.605 15610 15610 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:1031:08-14 11:40:27.605 15610 15610 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~DVvMOU3mNT
+NGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1046:08-14 11:40:27.605 15610 15610 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1055:08-14 11:41:51.582 15828 15828 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:1057:08-14 11:41:51.582 15828 15828 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~DVvMOU3mNT
+NGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1072:08-14 11:41:51.582 15828 15828 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1081:08-14 11:43:04.326 15987 15987 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:1083:08-14 11:43:04.326 15987 15987 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~DVvMOU3mNT
+NGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1098:08-14 11:43:04.326 15987 15987 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1107:08-14 11:44:36.352 16424 16424 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:1109:08-14 11:44:36.352 16424 16424 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~DVvMOU3mNT
+NGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1124:08-14 11:44:36.352 16424 16424 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/lib/arm64, 
+/data/app/~~DVvMOU3mNTNGKCfETgeSeQ==/com.vcan.app-XkWx62IXJ3r1IX3qn_AAnQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1133:08-14 11:44:45.573 16541 16541 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:1135:08-14 11:44:45.573 16541 16541 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk"],nativeLibraryDirectories=[/data/app/~~-QL6L_wyGb
+qX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/lib/arm64, 
+/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1150:08-14 11:44:45.573 16541 16541 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/lib/arm64, 
+/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1160:08-14 11:54:14.374 16945 16945 E AndroidRuntime: FATAL EXCEPTION: main
+device_logs_20250825-000237\full_logcat.txt:1162:08-14 11:54:14.374 16945 16945 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity 
+ComponentInfo{com.vcan.app/com.vcan.app.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.vcan.app.MainActivity" on path: 
+DexPathList[[zip file "/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk"],nativeLibraryDirectories=[/data/app/~~-QL6L_wyGb
+qX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/lib/arm64, 
+/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1177:08-14 11:54:14.374 16945 16945 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find 
+class "com.vcan.app.MainActivity" on path: DexPathList[[zip file "/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk"],nativ
+eLibraryDirectories=[/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/lib/arm64, 
+/data/app/~~-QL6L_wyGbqX98fjnynl7w==/com.vcan.app-pmyegKXxP38ril6yAgwc0Q==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+device_logs_20250825-000237\full_logcat.txt:1190:08-14 12:13:40.324     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1196:08-14 16:50:35.336     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing 
+DeviceGenerateKey request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to 
+current 202508")
+device_logs_20250825-000237\full_logcat.txt:1208:08-14 22:57:24.160     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1211:08-15 00:00:57.155     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1212:08-15 00:00:57.234     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1216:08-15 00:12:11.461     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1223:08-15 10:43:49.529     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1225:08-15 10:43:49.743     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1262:08-16 12:26:33.053     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1278:08-16 18:49:04.602     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1300:08-17 10:35:12.559     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1308:08-17 21:35:51.930     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1351:08-19 12:34:15.759     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 150000 needs upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:1352:08-19 12:34:15.772     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 150000 needs upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:1376:08-20 12:14:18.771     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS version 150000 needs upgrade to current 160000")
+device_logs_20250825-000237\full_logcat.txt:1379:08-20 14:19:14.999     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1390:08-20 20:38:02.697     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1411:08-21 18:56:27.362     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1442:08-22 18:03:43.208     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1522:08-24 09:48:52.393     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:1620:08-24 23:29:59.807  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:1686:08-24 23:30:04.447  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:1777:08-24 23:30:12.845  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:1789:08-24 23:30:16.444  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:1843:08-24 23:30:19.641  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:1879:08-24 23:30:19.805  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:1955:08-24 23:30:22.505  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:2145:08-24 23:31:54.922  1827  3143 W MediaSessionRecord: error unlinking to binder death
+device_logs_20250825-000237\full_logcat.txt:2146:08-24 23:31:54.922  1827  3143 W MediaSessionRecord: java.util.NoSuchElementException: Death link does not 
+exist (NAME_NOT_FOUND)
+device_logs_20250825-000237\full_logcat.txt:2275:08-24 23:33:50.643  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:2287:08-24 23:33:50.643  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:2288:08-24 23:33:50.643  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:2289:08-24 23:33:50.643  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:2295:08-24 23:33:50.643  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:2974:08-24 23:38:03.720  1827  1988 W MediaSessionRecord: error unlinking to binder death
+device_logs_20250825-000237\full_logcat.txt:2975:08-24 23:38:03.720  1827  1988 W MediaSessionRecord: java.util.NoSuchElementException: Death link does not 
+exist (NAME_NOT_FOUND)
+device_logs_20250825-000237\full_logcat.txt:3123:08-24 23:39:12.724  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:3135:08-24 23:39:12.724  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:3136:08-24 23:39:12.724  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:3137:08-24 23:39:12.724  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:3143:08-24 23:39:12.724  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:3296:08-24 23:40:09.517  1827  3143 W ActivityManager: pid 1827 system sent binder code 12 with flags 1 to 
+frozen apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3297:08-24 23:40:09.518  1827  3143 W ActivityManager: Exception when unbinding service 
+com.brave.browser/org.chromium.content.app.SandboxedProcessService0:26
+device_logs_20250825-000237\full_logcat.txt:3298:08-24 23:40:09.518  1827  3143 W ActivityManager: android.os.DeadObjectException
+device_logs_20250825-000237\full_logcat.txt:3320:08-24 23:40:13.738  1827 24014 W ActivityManager: pid 1827 system sent binder code 12 with flags 1 to 
+frozen apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3321:08-24 23:40:13.738  1827 24014 D ActivityManager: Too many transaction errors, throttling freezer binder 
+callback.
+device_logs_20250825-000237\full_logcat.txt:3322:08-24 23:40:13.744  1827 24014 W ActivityManager: Exception when unbinding service 
+com.brave.browser/org.chromium.content.app.SandboxedProcessService0:27
+device_logs_20250825-000237\full_logcat.txt:3323:08-24 23:40:13.744  1827 24014 W ActivityManager: android.os.DeadObjectException
+device_logs_20250825-000237\full_logcat.txt:3362:08-24 23:40:32.230  2876  2915 V WindowManagerShell: Directly starting a new transition type=TO_FRONT 
+wct=WindowContainerTransaction { changes= {} hops= [{pendingIntent: options=Bundle[{android.activity.splashScreenStyle=-1, 
+android.activity.sourceInfo=Supplier{VAL_PARCELABLE@148+104}, android.pendingIntent.backgroundActivityAllowed=3, android:activity.animAbortListener=null, 
+android.activity.transientLaunch=true}]}] errorCallbackToken=null taskFragmentOrganizer=null } 
+handler=com.android.wm.shell.recents.RecentsTransitionHandler@1c77e19
+device_logs_20250825-000237\full_logcat.txt:3387:08-24 23:40:32.259  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[{pendingIntent: options=Bundle[{android.activity.splashScreenStyle=-1, android.activity.sourceInfo=android.app.ActivityOptions$SourceInfo@c4059d0, 
+android.pendingIntent.backgroundActivityAllowed=3, android:activity.animAbortListener=null, android.activity.transientLaunch=true}]}] 
+errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:3500:08-24 23:40:35.878  1827  2782 W ActivityManager: pid 1827 system sent binder code 1 with flags 1 to frozen 
+apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3501:08-24 23:40:35.886  1827  2782 W ActivityManager: pid 1827 system sent binder code 1 with flags 1 to frozen 
+apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3502:08-24 23:40:35.886  1827  2782 D ActivityManager: Too many transaction errors, throttling freezer binder 
+callback.
+device_logs_20250825-000237\full_logcat.txt:3503:08-24 23:40:35.887  1827  2782 W ActivityManager: pid 1827 system sent binder code 1 with flags 1 to frozen 
+apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3504:08-24 23:40:35.887  1827  2782 D ActivityManager: Too many transaction errors, throttling freezer binder 
+callback.
+device_logs_20250825-000237\full_logcat.txt:3505:08-24 23:40:35.890  1827  2782 W ActivityManager: pid 1827 system sent binder code 1 with flags 1 to frozen 
+apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3506:08-24 23:40:35.890  1827  2782 D ActivityManager: Too many transaction errors, throttling freezer binder 
+callback.
+device_logs_20250825-000237\full_logcat.txt:3534:08-24 23:40:36.468  1827  1827 W ActivityManager: pid 1827 system sent binder code 2 with flags 1 to frozen 
+apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3535:08-24 23:40:36.469  1827  1827 D ActivityManager: Too many transaction errors, throttling freezer binder 
+callback.
+device_logs_20250825-000237\full_logcat.txt:3536:08-24 23:40:36.469  1827  1827 I TextToSpeechManagerPerUserService: Failed running callback method: 
+android.os.DeadObjectException
+device_logs_20250825-000237\full_logcat.txt:3537:08-24 23:40:36.477  1827 24014 W ActivityManager: pid 1827 system sent binder code 12 with flags 1 to 
+frozen apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3538:08-24 23:40:36.477  1827 24014 D ActivityManager: Too many transaction errors, throttling freezer binder 
+callback.
+device_logs_20250825-000237\full_logcat.txt:3539:08-24 23:40:36.478  1827 24014 W ActivityManager: Exception when unbinding service 
+com.brave.browser/org.chromium.content.app.PrivilegedProcessService0
+device_logs_20250825-000237\full_logcat.txt:3540:08-24 23:40:36.478  1827 24014 W ActivityManager: android.os.DeadObjectException
+device_logs_20250825-000237\full_logcat.txt:3554:08-24 23:40:36.479  1827 24014 W ActivityManager: pid 1827 system sent binder code 12 with flags 1 to 
+frozen apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3555:08-24 23:40:36.479  1827 24014 D ActivityManager: Too many transaction errors, throttling freezer binder 
+callback.
+device_logs_20250825-000237\full_logcat.txt:3556:08-24 23:40:36.479  1827 24014 W ActivityManager: Exception when unbinding service 
+com.brave.browser/org.chromium.content.app.SandboxedProcessService0:34
+device_logs_20250825-000237\full_logcat.txt:3557:08-24 23:40:36.479  1827 24014 W ActivityManager: android.os.DeadObjectException
+device_logs_20250825-000237\full_logcat.txt:3633:08-24 23:40:39.917  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:3659:08-24 23:40:44.118  1827 17072 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.example.vcan 
+cmp=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=182370073) 
+(BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:3660:08-24 23:40:44.120  2876  2915 V WindowManagerShell: Transition requested (#7474): 
+android.os.BinderProxy@3fe3c22 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5631 effectiveUid=10438 displayId=0 
+isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30100000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=948927441 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@dde26b3} topActivityType=1 
+pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) 
+topActivityInfo=ActivityInfo{8d33470 com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) 
+parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 
+requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false 
+topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 
+topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false 
+isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 
+7474 }
+device_logs_20250825-000237\full_logcat.txt:3668:08-24 23:40:44.140  1827 17072 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.api.signin.ui.SignInActivity (has 
+extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=129765980) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:3674:08-24 23:40:44.158  1827 21603 D CoreBackPreview: Window{e5013bf u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@386bbb7, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:3678:08-24 23:40:44.230  1827 17072 D CoreBackPreview: Window{90e628e u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@74f59c1, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:3679:08-24 23:40:44.236  1827  1930 V WindowManager: Sent Transition (#7474) createdAt=08-24 23:40:44.116 via 
+request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5631 effectiveUid=10438 displayId=0 isRunning=true baseIntent=Intent { 
+act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30100000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=948927441 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{a781bc3 Task{6e0e823 #5631 type=standard 
+I=com.example.vcan/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 
+lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{a1e8b3e 
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true 
+isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} 
+topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7474 }
+device_logs_20250825-000237\full_logcat.txt:3680:08-24 23:40:44.236  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:3682:08-24 23:40:44.236  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{156111506 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xaaa0043 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:3683:08-24 23:40:44.236  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{129765980 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xa3241f2 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:3687:08-24 23:40:44.237  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{156111506 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xa87a3e9 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:3688:08-24 23:40:44.237  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{129765980 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xee7f86e sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:3692:08-24 23:40:44.237  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7474 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{156111506 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xa87a3e9 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{129765980 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xee7f86e sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:3697:08-24 23:40:44.237  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7474 
+t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{156111506 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xa87a3e9 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{129765980 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xee7f86e sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:3714:08-24 23:40:44.965  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:3716:08-24 23:40:44.965  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{156111506 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xaaa0043 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:3720:08-24 23:40:44.965  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{156111506 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x92d95a5 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:3724:08-24 23:40:44.965  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7475 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{156111506 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x92d95a5 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:3729:08-24 23:40:44.965  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7475 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{156111506 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x92d95a5 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:3740:08-24 23:40:44.982  1827 18706 D CoreBackPreview: Window{90e628e u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:3746:08-24 23:40:44.990  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:3748:08-24 23:40:44.990  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{129765980 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xfb52188 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:3751:08-24 23:40:44.990  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{129765980 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xa3241f2 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:3755:08-24 23:40:44.990  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7476 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{129765980 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xfb52188 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:3760:08-24 23:40:44.991  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7476 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{129765980 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xfb52188 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:3770:08-24 23:40:45.003  1827 21603 D CoreBackPreview: Window{e5013bf u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:3813:08-24 23:40:58.318  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:3830:08-24 23:40:58.498  1827  1856 W ActivityManager: pid 1827 system sent binder code 7 with flags 1 to frozen 
+apps and got error -32
+device_logs_20250825-000237\full_logcat.txt:3831:08-24 23:40:58.499  1827  1856 W WindowManager: Exception thrown during dispatchAppVisibility 
+Window{7caceaa u0 com.example.vcan/com.example.vcan.MainActivity EXITING}
+device_logs_20250825-000237\full_logcat.txt:3832:08-24 23:40:58.499  1827  1856 W WindowManager: android.os.DeadObjectException
+device_logs_20250825-000237\full_logcat.txt:4128:08-24 23:41:02.892  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4383:08-24 23:41:29.748  1827 18706 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.example.vcan 
+cmp=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=104957269) 
+(BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4384:08-24 23:41:29.749  2876  2915 V WindowManagerShell: Transition requested (#7479): 
+android.os.BinderProxy@82f391c TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 
+isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=948973070 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@72a0925} topActivityType=1 
+pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) 
+topActivityInfo=ActivityInfo{34d5afa com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) 
+parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 
+requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false 
+topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 
+topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false 
+isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 
+7479 }
+device_logs_20250825-000237\full_logcat.txt:4394:08-24 23:41:29.775  1827  6865 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.api.signin.ui.SignInActivity (has 
+extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=25480732) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4402:08-24 23:41:29.791  1827  6865 D CoreBackPreview: Window{125f64c u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@82ac2e4, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4405:08-24 23:41:29.814  1827  6820 D CoreBackPreview: Window{1432950 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@8f2218b, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4406:08-24 23:41:29.819  1827  1930 V WindowManager: Sent Transition (#7479) createdAt=08-24 23:41:29.745 via 
+request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 isRunning=true baseIntent=Intent { 
+act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=948973070 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9cb1517 Task{543db6a #5681 type=standard 
+I=com.example.vcan/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 
+lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{5328aac 
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true 
+isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} 
+topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7479 }
+device_logs_20250825-000237\full_logcat.txt:4408:08-24 23:41:29.820  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4410:08-24 23:41:29.820  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{173111328 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xa5b8680 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4411:08-24 23:41:29.820  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{25480732 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x98b3703 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4414:08-24 23:41:29.820  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{173111328 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x10418ab sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4415:08-24 23:41:29.820  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{25480732 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xd84cb08 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4419:08-24 23:41:29.821  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7479 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{173111328 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x10418ab sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{25480732 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xd84cb08 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4424:08-24 23:41:29.821  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7479 
+t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{173111328 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x10418ab sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{25480732 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xd84cb08 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4441:08-24 23:41:29.863  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{173111328 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xde99487 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4445:08-24 23:41:29.863  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7480 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{173111328 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xde99487 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4448:08-24 23:41:29.863  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4451:08-24 23:41:29.863  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{173111328 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xa5b8680 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4455:08-24 23:41:29.863  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7480 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{173111328 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xde99487 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4465:08-24 23:41:29.879  1827  6820 D CoreBackPreview: Window{1432950 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:4473:08-24 23:41:29.893  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4475:08-24 23:41:29.893  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{25480732 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xc284f52 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=ff000000 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4478:08-24 23:41:29.893  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{25480732 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x98b3703 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=ff000000 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4482:08-24 23:41:29.893  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7481 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{25480732 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xc284f52 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=ff000000 component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4487:08-24 23:41:29.893  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7481 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{25480732 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xc284f52 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=ff000000 component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4497:08-24 23:41:29.907  1827 21603 D CoreBackPreview: Window{125f64c u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:4503:08-24 23:41:36.796  1827  6820 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.example.vcan 
+cmp=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=104957269) 
+(BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4504:08-24 23:41:36.797  2876  2915 V WindowManagerShell: Transition requested (#7482): 
+android.os.BinderProxy@5fff320 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 
+isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=948980118 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@4ce74d9} topActivityType=1 
+pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) 
+topActivityInfo=ActivityInfo{c580e9e com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) 
+parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 
+requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false 
+topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 
+topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false 
+isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 
+7482 }
+device_logs_20250825-000237\full_logcat.txt:4512:08-24 23:41:36.813  1827 18706 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.api.signin.ui.SignInActivity (has 
+extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=245707097) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4515:08-24 23:41:36.821  1827 18706 D CoreBackPreview: Window{73ab291 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@dbce2d0, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4519:08-24 23:41:36.845  1827 18706 D CoreBackPreview: Window{8472285 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@4cb2e94, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4521:08-24 23:41:36.850  1827  1930 V WindowManager: Sent Transition (#7482) createdAt=08-24 23:41:36.793 via 
+request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 isRunning=true baseIntent=Intent { 
+act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=948980118 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9cb1517 Task{543db6a #5681 type=standard 
+I=com.example.vcan/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 
+lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{aa5bc2c 
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true 
+isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} 
+topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7482 }
+device_logs_20250825-000237\full_logcat.txt:4522:08-24 23:41:36.850  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4524:08-24 23:41:36.850  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{149850645 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x2268d7f sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4525:08-24 23:41:36.850  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{245707097 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x8c1214c sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4529:08-24 23:41:36.851  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7482 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{149850645 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x2268d7f sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{245707097 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x8c1214c sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4532:08-24 23:41:36.851  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{149850645 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xbc3b67e sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4533:08-24 23:41:36.851  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{245707097 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xe425039 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4538:08-24 23:41:36.852  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7482 
+t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{149850645 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x2268d7f sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{245707097 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x8c1214c sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4554:08-24 23:41:36.890  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4556:08-24 23:41:36.890  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{149850645 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xbc3b67e sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4560:08-24 23:41:36.890  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{149850645 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xe20829b sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4564:08-24 23:41:36.890  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7483 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{149850645 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xe20829b sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4569:08-24 23:41:36.890  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7483 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{149850645 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xe20829b sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4585:08-24 23:41:36.904  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4587:08-24 23:41:36.904  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{245707097 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xe425039 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4590:08-24 23:41:36.904  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{245707097 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x9995376 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4594:08-24 23:41:36.904  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7484 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{245707097 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x9995376 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4599:08-24 23:41:36.905  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7484 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{245707097 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x9995376 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4608:08-24 23:41:36.919  1827 21603 D CoreBackPreview: Window{8472285 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:4701:08-24 23:44:45.352  1827  6865 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.example.vcan 
+cmp=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=104957269) 
+(BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4702:08-24 23:44:45.352  2876  2915 V WindowManagerShell: Transition requested (#7485): 
+android.os.BinderProxy@49aca18 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 
+isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=949168674 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@60b8c71} topActivityType=1 
+pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) 
+topActivityInfo=ActivityInfo{81b6a56 com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) 
+parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 
+requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false 
+topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 
+topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false 
+isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 
+7485 }
+device_logs_20250825-000237\full_logcat.txt:4710:08-24 23:44:45.361  1827  6865 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.api.signin.ui.SignInActivity (has 
+extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=66059245) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4720:08-24 23:44:45.376  1827  6865 D CoreBackPreview: Window{a19bba5 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d54ba5d, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4723:08-24 23:44:45.392  1827 24013 D CoreBackPreview: Window{4cc591b u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e62d093, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4730:08-24 23:44:45.397  1827  1930 V WindowManager: Sent Transition (#7485) createdAt=08-24 23:44:45.349 via 
+request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 isRunning=true baseIntent=Intent { 
+act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=949168674 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9cb1517 Task{543db6a #5681 type=standard 
+I=com.example.vcan/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 
+lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{771bf0b 
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true 
+isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} 
+topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7485 }
+device_logs_20250825-000237\full_logcat.txt:4731:08-24 23:44:45.397  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4733:08-24 23:44:45.397  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{81619433 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xc71f085 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4734:08-24 23:44:45.397  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{66059245 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x352a1fc sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4738:08-24 23:44:45.398  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{81619433 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x296aad7 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4739:08-24 23:44:45.398  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{66059245 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xb7e6fc4 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4745:08-24 23:44:45.398  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7485 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{81619433 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x296aad7 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{66059245 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xb7e6fc4 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4750:08-24 23:44:45.399  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7485 
+t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{81619433 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x296aad7 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{66059245 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xb7e6fc4 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4770:08-24 23:44:45.437  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4772:08-24 23:44:45.437  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{81619433 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xc71f085 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4775:08-24 23:44:45.437  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{81619433 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x4311d73 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4779:08-24 23:44:45.437  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7486 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{81619433 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x4311d73 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4784:08-24 23:44:45.437  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7486 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{81619433 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x4311d73 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4798:08-24 23:44:45.462  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4800:08-24 23:44:45.462  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{66059245 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x352a1fc sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4804:08-24 23:44:45.462  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{66059245 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x856e2e sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4808:08-24 23:44:45.463  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7487 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{66059245 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x856e2e sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4813:08-24 23:44:45.463  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7487 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{66059245 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x856e2e sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4827:08-24 23:44:45.481  1827 18706 D CoreBackPreview: Window{4cc591b u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:4832:08-24 23:44:45.495  1827 23976 D CoreBackPreview: Window{a19bba5 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:4858:08-24 23:44:50.019  1827 24013 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.example.vcan 
+cmp=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=104957269) 
+(BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4859:08-24 23:44:50.020  2876  2915 V WindowManagerShell: Transition requested (#7488): 
+android.os.BinderProxy@960c7eb TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 
+isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=949173341 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@5e0e948} topActivityType=1 
+pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) 
+topActivityInfo=ActivityInfo{d8773e1 com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) 
+parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 
+requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false 
+topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 
+topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false 
+isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 
+7488 }
+device_logs_20250825-000237\full_logcat.txt:4867:08-24 23:44:50.032  1827  2934 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.api.signin.ui.SignInActivity (has 
+extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=236278055) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:4873:08-24 23:44:50.042  1827  2934 D CoreBackPreview: Window{f47156c u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@32ca604, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4874:08-24 23:44:50.051  1827  2934 D CoreBackPreview: Window{3929622 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@24157a5, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4875:08-24 23:44:50.057  1827  1930 V WindowManager: Sent Transition (#7488) createdAt=08-24 23:44:50.016 via 
+request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 isRunning=true baseIntent=Intent { 
+act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=949173341 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9cb1517 Task{543db6a #5681 type=standard 
+I=com.example.vcan/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 
+lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{753d65d 
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true 
+isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} 
+topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7488 }
+device_logs_20250825-000237\full_logcat.txt:4876:08-24 23:44:50.057  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4879:08-24 23:44:50.057  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236512576 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x9426f07 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4880:08-24 23:44:50.057  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236278055 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xda7e146 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4883:08-24 23:44:50.057  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236512576 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x9011506 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:4884:08-24 23:44:50.057  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236278055 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x281f7c7 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:4888:08-24 23:44:50.057  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7488 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{236512576 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x9011506 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236278055 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x281f7c7 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4893:08-24 23:44:50.057  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7488 
+t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{236512576 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x9011506 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236278055 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x281f7c7 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4903:08-24 23:44:50.075  1827 21227 D CoreBackPreview: Window{3929622 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@22003a0, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4904:08-24 23:44:50.076  1827 21227 D CoreBackPreview: Window{3929622 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@67c7b59, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:4910:08-24 23:44:50.083  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4912:08-24 23:44:50.083  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236512576 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x9426f07 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4916:08-24 23:44:50.083  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236512576 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xb097b92 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:4920:08-24 23:44:50.084  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7489 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{236512576 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xb097b92 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4925:08-24 23:44:50.084  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7489 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{236512576 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0xb097b92 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:4941:08-24 23:44:50.103  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:4943:08-24 23:44:50.103  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236278055 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0xda7e146 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4947:08-24 23:44:50.104  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{236278055 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x1c1be19 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:4951:08-24 23:44:50.104  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7490 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{236278055 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x1c1be19 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4956:08-24 23:44:50.104  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7490 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{236278055 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x1c1be19 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:4965:08-24 23:44:50.111  1827 24013 D CoreBackPreview: Window{3929622 u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:4966:08-24 23:44:50.113  1827  1856 D CoreBackPreview: Window{f47156c u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:4984:08-24 23:45:22.631  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:4996:08-24 23:45:22.631  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:4997:08-24 23:45:22.631  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:4998:08-24 23:45:22.631  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:5004:08-24 23:45:22.631  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:5059:08-24 23:48:24.766  1827  2934 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.example.vcan 
+cmp=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=104957269) 
+(BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:5060:08-24 23:48:24.769  2876  2915 V WindowManagerShell: Transition requested (#7491): 
+android.os.BinderProxy@c1d67d2 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 
+isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=949388087 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@c9360a3} topActivityType=1 
+pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) 
+topActivityInfo=ActivityInfo{343ffa0 com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) 
+parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 
+requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false 
+topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 
+topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false 
+isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 
+7491 }
+device_logs_20250825-000237\full_logcat.txt:5073:08-24 23:48:24.791  1827  7870 I ActivityTaskManager: START u0 
+{act=com.google.android.gms.auth.GOOGLE_SIGN_IN xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.api.signin.ui.SignInActivity (has 
+extras)} with LAUNCH_MULTIPLE from uid 10438 (rr=241152549) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+device_logs_20250825-000237\full_logcat.txt:5079:08-24 23:48:24.805  1827  7870 D CoreBackPreview: Window{6b0abaa u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@72f0602, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:5082:08-24 23:48:24.820  1827  2934 D CoreBackPreview: Window{48b804e u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@520c367, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+device_logs_20250825-000237\full_logcat.txt:5087:08-24 23:48:24.825  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{143851741 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x196c759 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:5088:08-24 23:48:24.825  2876  2915 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{241152549 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x5c62f1e sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:5092:08-24 23:48:24.825  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7491 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{143851741 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x196c759 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{241152549 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x5c62f1e sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:5097:08-24 23:48:24.825  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7491 
+t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{143851741 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x196c759 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 
+r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},{m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{241152549 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x5c62f1e sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}]}
+device_logs_20250825-000237\full_logcat.txt:5100:08-24 23:48:24.825  1827  1930 V WindowManager: Sent Transition (#7491) createdAt=08-24 23:48:24.761 via 
+request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=5681 effectiveUid=10438 displayId=0 isRunning=true baseIntent=Intent { 
+act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.example.vcan/.MainActivity } 
+baseActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} 
+topActivity=ComponentInfo{com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} origActivity=null 
+realActivity=ComponentInfo{com.example.vcan/com.example.vcan.MainActivity} numActivities=2 lastActiveTime=949388087 supportsMultiWindow=true resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9cb1517 Task{543db6a #5681 type=standard 
+I=com.example.vcan/.MainActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 
+lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{90da2ac 
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true 
+isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} 
+topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7491 }
+device_logs_20250825-000237\full_logcat.txt:5101:08-24 23:48:24.826  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:5103:08-24 23:48:24.826  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{143851741 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x8fe98fe sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 
+1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity},
+device_logs_20250825-000237\full_logcat.txt:5104:08-24 23:48:24.826  1827  1930 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{241152549 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x2e92cb9 sb=Rect(0, 0 - 
+0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}
+device_logs_20250825-000237\full_logcat.txt:5120:08-24 23:48:24.868  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{143851741 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x8638015 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:5124:08-24 23:48:24.869  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7492 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{143851741 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x8638015 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:5126:08-24 23:48:24.869  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:5129:08-24 23:48:24.869  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{143851741 u0 com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x8fe98fe sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 
+- 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}
+device_logs_20250825-000237\full_logcat.txt:5134:08-24 23:48:24.869  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7492 
+t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{143851741 u0 
+com.google.android.gms/.auth.api.signin.ui.SignInActivity)/@0x8638015 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 
+bc=fffafafa component=com.google.android.gms/.auth.api.signin.ui.SignInActivity}]}
+device_logs_20250825-000237\full_logcat.txt:5151:08-24 23:48:24.881  2876  2915 V WindowManagerShell:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{241152549 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x1ae22b8 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:5156:08-24 23:48:24.881  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:5158:08-24 23:48:24.881  1827  1930 V WindowManager:         {m=CLOSE f=TRANSLUCENT|FILLS_TASK 
+leash=Surface(name=ActivityRecord{241152549 u0 com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x2e92cb9 sb=Rect(0, 0 - 
+1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa 
+component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE mUserId=0}}
+device_logs_20250825-000237\full_logcat.txt:5160:08-24 23:48:24.881  2876  2915 V WindowManagerShell: Transition doesn't have explicit remote, search 
+filters for match for {id=7493 t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{241152549 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x1ae22b8 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:5165:08-24 23:48:24.882  2876  2915 V WindowManagerShell: start default transition animation, info = {id=7493 
+t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{241152549 u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity)/@0x1ae22b8 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) 
+epz=Point(1344, 2992) d=0 bc=fffafafa component=com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity opt={t=FROM_STYLE 
+mUserId=0}}]}
+device_logs_20250825-000237\full_logcat.txt:5174:08-24 23:48:24.898  1827  2934 D CoreBackPreview: Window{48b804e u0 
+com.google.android.gms/com.google.android.gms.auth.api.signin.ui.SignInActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:5175:08-24 23:48:24.902  1827  2934 D CoreBackPreview: Window{6b0abaa u0 
+com.example.vcan/com.google.android.gms.auth.api.signin.internal.SignInHubActivity}: Setting back callback null
+device_logs_20250825-000237\full_logcat.txt:5182:08-24 23:48:33.516  2876  2915 V WindowManagerShell: Directly starting a new transition type=TO_FRONT 
+wct=WindowContainerTransaction { changes= {} hops= [{pendingIntent: options=Bundle[{android.activity.splashScreenStyle=-1, 
+android.activity.sourceInfo=Supplier{VAL_PARCELABLE@148+104}, android.pendingIntent.backgroundActivityAllowed=3, android:activity.animAbortListener=null, 
+android.activity.transientLaunch=true}]}] errorCallbackToken=null taskFragmentOrganizer=null } 
+handler=com.android.wm.shell.recents.RecentsTransitionHandler@1c77e19
+device_logs_20250825-000237\full_logcat.txt:5191:08-24 23:48:33.548  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[{pendingIntent: options=Bundle[{android.activity.splashScreenStyle=-1, android.activity.sourceInfo=android.app.ActivityOptions$SourceInfo@ed4b40, 
+android.pendingIntent.backgroundActivityAllowed=3, android:activity.animAbortListener=null, android.activity.transientLaunch=true}]}] 
+errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:5268:08-24 23:48:45.165  1827  1930 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= 
+[] errorCallbackToken=null taskFragmentOrganizer=null }
+device_logs_20250825-000237\full_logcat.txt:5518:08-24 23:50:26.747  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:5530:08-24 23:50:26.747  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:5531:08-24 23:50:26.747  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:5532:08-24 23:50:26.747  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:5538:08-24 23:50:26.747  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:6016:08-24 23:55:47.047  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:6028:08-24 23:55:47.047  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:6029:08-24 23:55:47.047  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:6030:08-24 23:55:47.047  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:6036:08-24 23:55:47.047  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:6237:08-24 23:57:23.052     0     0 I trusty  : WARN: system/keymint/ta/src/lib.rs:1253 failing DeviceBegin 
+request with error Hal(KeyRequiresUpgrade, "system/keymint/ta/src/lib.rs:434: keyblob with old OS patchlevel 202507 needs upgrade to current 202508")
+device_logs_20250825-000237\full_logcat.txt:6247:08-24 23:57:24.635  1827  6005 W KeyValueBackupTask: Agent com.google.android.apps.maps error in onBackup()
+device_logs_20250825-000237\full_logcat.txt:6332:08-24 23:57:24.667  1827  6005 W PackageConfigPersister: App-specific configuration not found for 
+packageName: com.google.android.apps.authenticator2 and userId: 0
+device_logs_20250825-000237\full_logcat.txt:6659:08-24 23:57:24.677  1827  6005 W PackageConfigPersister: App-specific configuration not found for 
+packageName: com.google.android.apps.authenticator2 and userId: 0
+device_logs_20250825-000237\full_logcat.txt:8458:08-25 00:00:00.181  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:8470:08-25 00:00:00.181  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:8471:08-25 00:00:00.181  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:8472:08-25 00:00:00.181  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:8478:08-25 00:00:00.181  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:8495:08-25 00:00:00.515  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:8507:08-25 00:00:00.515  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:8508:08-25 00:00:00.515  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:8509:08-25 00:00:00.515  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:8515:08-25 00:00:00.515  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:8955:08-25 00:00:24.993  2024  3737 I cr_OPArchivePublisher: ADM threw while trying to remove a download. 
+java.lang.IllegalArgumentException: input param 'ids' can't be null
+device_logs_20250825-000237\full_logcat.txt:10996:08-25 00:00:41.054 22458 22458 D BoundBrokerSvc: onUnbind: Intent { 
+act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action:/... xflg=0x4 
+cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+device_logs_20250825-000237\full_logcat.txt:14566:08-25 00:01:00.706  1827  1965 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: 
+java.lang.RuntimeException: error: 9
+device_logs_20250825-000237\full_logcat.txt:14578:08-25 00:01:00.706  1827  1965 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: 
+error: 9
+device_logs_20250825-000237\full_logcat.txt:14579:08-25 00:01:00.706  1827  1965 E BluetoothPowerStatsCollector: 	at 
+com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+device_logs_20250825-000237\full_logcat.txt:14580:08-25 00:01:00.706  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1059)
+device_logs_20250825-000237\full_logcat.txt:14586:08-25 00:01:00.706  1827  1965 E BluetoothPowerStatsCollector: 	at 
+android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1058)
+device_logs_20250825-000237\full_logcat.txt:14655:08-25 00:01:02.940  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:14669:08-25 00:01:02.940  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:14687:08-25 00:01:02.940  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:14699:08-25 00:01:02.940  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:14713:08-25 00:01:02.940  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:14755:08-25 00:01:02.965 22458 22469 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS 
+triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+device_logs_20250825-000237\full_logcat.txt:14994:08-25 00:01:08.455  1827  2451 D MediaSessionService: onSessionPlaybackStateChanged: 
+record=com.brave.browser/Brave/197 (userId=0) playbackState=PlaybackState {state=PLAYING(3), position=-1, buffered position=0, speed=1.0, updated=950151778, 
+actions=334, custom actions=[], active item id=-1, error=null}
+device_logs_20250825-000237\full_logcat.txt:14998:08-25 00:01:08.466  1827 18706 D MediaSessionService: onSessionPlaybackStateChanged: 
+record=com.brave.browser/Brave/197 (userId=0) playbackState=PlaybackState {state=PLAYING(3), position=-1, buffered position=0, speed=1.0, updated=950151789, 
+actions=334, custom actions=[], active item id=-1, error=null}
+device_logs_20250825-000237\full_logcat.txt:15044:08-25 00:01:08.966  1827  6865 D MediaSessionService: onSessionPlaybackStateChanged: 
+record=com.brave.browser/Brave/197 (userId=0) playbackState=PlaybackState {state=PLAYING(3), position=146, buffered position=0, speed=1.0, 
+updated=950152026, actions=334, custom actions=[], active item id=-1, error=null}
+device_logs_20250825-000237\full_logcat.txt:15098:08-25 00:01:09.211  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15112:08-25 00:01:09.211  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15130:08-25 00:01:09.211  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15142:08-25 00:01:09.211  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15156:08-25 00:01:09.211  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15188:08-25 00:01:09.225 22458 22685 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS 
+triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+device_logs_20250825-000237\full_logcat.txt:15886:08-25 00:01:27.904  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15900:08-25 00:01:27.904  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15918:08-25 00:01:27.904  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15930:08-25 00:01:27.904  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15944:08-25 00:01:27.904  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:15979:08-25 00:01:27.921 22458 22681 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS 
+triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+device_logs_20250825-000237\full_logcat.txt:16251:08-25 00:01:43.563  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:16265:08-25 00:01:43.563  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:16283:08-25 00:01:43.563  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:16295:08-25 00:01:43.563  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:16309:08-25 00:01:43.563  1827  2775 W WifiNetworkFactory:  AuthAlgorithms:
+device_logs_20250825-000237\full_logcat.txt:16345:08-25 00:01:43.589 22458 22469 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS 
+triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+device_logs_20250825-000237\full_logcat.txt:16572:08-25 00:01:53.685  5385  5502 W bphv    : java.text.ParseException: Unparseable number: "sa"
+device_logs_20250825-000237\full_logcat.txt:16600:08-25 00:01:53.715  5385  5385 I AdvertisingIdClient: getting error as 17: API: ClientTelemetry.API is not 
+available on this device. Connection failed with: ConnectionResult{statusCode=API_DISABLED_FOR_CONNECTION, resolution=null, message=null}
+device_logs_20250825-000237\full_logcat.txt:16604:08-25 00:01:53.738  5385  5504 W bphv    : java.text.ParseException: Unparseable number: "sa"
+device_logs_20250825-000237\full_logcat.txt:16675:08-25 00:01:55.145  5385  5467 E ekxl    : java.lang.IllegalArgumentException
+device_logs_20250825-000237\full_logcat.txt:16865:08-25 00:01:59.097 29337 29359 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {51a30d9} sending message to a Handler on a dead thread
+device_logs_20250825-000237\full_logcat.txt:16879:08-25 00:01:59.098 29337 29953 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {51a30d9} sending message to a Handler on a dead thread
+device_logs_20250825-000237\full_logcat.txt:16892:08-25 00:01:59.098 29337 29953 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {51a30d9} sending message to a Handler on a dead thread
+device_logs_20250825-000237\full_logcat.txt:16905:08-25 00:01:59.099 29337 29352 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {51a30d9} sending message to a Handler on a dead thread
+device_logs_20250825-000237\full_logcat.txt:16921:08-25 00:01:59.113 29337 29351 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {84ea97f} sending message to a Handler on a dead thread
+device_logs_20250825-000237\full_logcat.txt:16934:08-25 00:01:59.113 29337 29351 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {84ea97f} sending message to a Handler on a dead thread
+device_logs_20250825-000237\full_logcat.txt:16947:08-25 00:01:59.115 29337 29351 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {84ea97f} sending message to a Handler on a dead thread
+device_logs_20250825-000237\full_logcat.txt:16960:08-25 00:01:59.116 29337 29351 W ConcurrentMessageQueue: java.lang.IllegalStateException: Handler 
+(android.net.ConnectivityManager$CallbackHandler) {84ea97f} sending message to a Handler on a dead thread
+
+
