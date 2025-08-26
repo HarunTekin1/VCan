@@ -1,0 +1,22 @@
+name: Web HTML lint
+on:
+  push:
+    branches: [ '**' ]
+  pull_request:
+    branches: [ '**' ]
+
+jobs:
+  html-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install htmlhint
+        run: |
+          npm install -g htmlhint
+      - name: Run htmlhint on web files
+        run: |
+          htmlhint "web/webseite/**/*.html" || true
