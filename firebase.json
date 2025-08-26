@@ -1,0 +1,40 @@
+{
+	"flutter": {
+		"platforms": {
+			"android": {
+				"default": {
+					"projectId": "vcan-c74cc",
+					"appId": "1:490354986336:android:d0abff7a0a6835585a2205",
+					"fileOutput": "android/app/google-services.json"
+				}
+			},
+			"dart": {
+				"lib/firebase_options.dart": {
+					"projectId": "vcan-c74cc",
+					"configurations": {
+						"android": "1:490354986336:android:d0abff7a0a6835585a2205",
+						"ios": "1:490354986336:ios:d017e11eec14fdca5a2205",
+						"macos": "1:490354986336:ios:d017e11eec14fdca5a2205",
+						"web": "1:490354986336:web:ffa28e3561d4461b5a2205",
+						"windows": "1:490354986336:web:a585d86f898caed25a2205"
+					}
+				}
+			}
+		}
+	},
+	"firestore": {"rules": "firestore.rules"},
+	"storage": {"rules": "storage.rules"},
+	"hosting": {
+		"public": "web/webseite",
+		"ignore": [
+			"firebase.json",
+			"**/.*",
+			"**/node_modules/**"
+		],
+		"headers": [
+			{"source": "**/*.html", "headers": [{"key": "Cache-Control", "value": "no-cache"}]},
+			{"source": "**/*.{css,js}", "headers": [{"key": "Cache-Control", "value": "public,max-age=31536000,immutable"}]},
+			{"source": "assets/*", "headers": [{"key": "Cache-Control", "value": "public,max-age=31536000,immutable"}]}
+		]
+	}
+}
